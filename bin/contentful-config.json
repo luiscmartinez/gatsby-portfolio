@@ -646,10 +646,9 @@
         },
         "roles": {
           "en-US": [
-            "Quick setup 🚀",
-            "Responsive 📱",
-            "PWA ✨",
-            "Contentful CMS 🔧"
+            "Full-Stack Developer 👨‍💻",
+            "Scientist at Heart 👨‍🔬",
+            "Problem-Solver 🧐"
           ]
         },
         "socialLinks": {
@@ -694,7 +693,7 @@
           }
         },
         "aboutMe": {
-          "en-US": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
+          "en-US": "Hello 👋 I'm Cesar."
         },
         "mediumUser": {
           "en-US": "@mate.starter"
@@ -848,7 +847,7 @@
       },
       "fields": {
         "name": {
-          "en-US": "Google"
+          "en-US": "LearnLocker"
         },
         "publishedDate": {
           "en-US": "1998-06-19T00:00+02:00"
@@ -863,13 +862,13 @@
           }
         },
         "repositoryUrl": {
-          "en-US": "https://github.com/google"
+          "en-US": "https://github.com/learneda"
         },
         "description": {
           "en-US": "It is the most-used search engine on the World Wide Web, handling more than three billion searches each day."
         },
         "projectUrl": {
-          "en-US": "https://www.google.com/"
+          "en-US": "https://learnlocker.dev"
         },
         "type": {
           "en-US": "Web"
@@ -932,7 +931,7 @@
       },
       "fields": {
         "name": {
-          "en-US": "Gatsby JS"
+          "en-US": "QuizTime"
         },
         "publishedDate": {
           "en-US": "2016-09-01T00:00+02:00"
@@ -947,13 +946,13 @@
           }
         },
         "repositoryUrl": {
-          "en-US": "https://github.com/gatsbyjs/gatsby"
+          "en-US": "https://github.com/Lambda-School-Labs/labs9-QuizTime"
         },
         "description": {
           "en-US": " Gatsby is a React-based, GraphQL powered, static site generator. Overall think, part Jekyll, part create-react-app."
         },
         "projectUrl": {
-          "en-US": "https://www.gatsbyjs.org/"
+          "en-US": "https://quiztime.now.sh/"
         },
         "type": {
           "en-US": "Framework"
@@ -1016,7 +1015,7 @@
       },
       "fields": {
         "name": {
-          "en-US": "Facebook"
+          "en-US": "Refugee Stories"
         },
         "publishedDate": {
           "en-US": "2004-09-01T00:00+02:00"
@@ -1031,13 +1030,13 @@
           }
         },
         "repositoryUrl": {
-          "en-US": "https://github.com/facebook"
+          "en-US": "https://github.com/labs-sg1-refugee-stories/frontend02"
         },
         "description": {
           "en-US": "Facebook is a popular free social networking website that allows registered users to keep in touch with friends."
         },
         "projectUrl": {
-          "en-US": "http://facebook.com/"
+          "en-US": "https://refugeestories123.netlify.com/"
         },
         "type": {
           "en-US": "Web"
@@ -1103,7 +1102,7 @@
           "en-US": "Medium"
         },
         "url": {
-          "en-US": "https://medium.com/@emasuriano"
+          "en-US": "https://medium.com/@cesarnml"
         },
         "fontAwesomeIcon": {
           "en-US": "medium"
@@ -1235,7 +1234,7 @@
           "en-US": "Twitter"
         },
         "url": {
-          "en-US": "https://twitter.com/emasuriano"
+          "en-US": "https://twitter.com/cesarnm"
         },
         "fontAwesomeIcon": {
           "en-US": "twitter"
