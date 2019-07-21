@@ -235,6 +235,4 @@ I'm totally open for pull requests with bug fixes, changes in Documentation, or 
 
 Plase check the [Contribution guidelines](CONTRIBUTING.md) before opening yours 🙏
 
-## License 📝
 
-MIT.
