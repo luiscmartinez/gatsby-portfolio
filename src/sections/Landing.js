@@ -94,7 +94,7 @@ const LandingPage = () => (
                 </Box>
               ))}
             </Flex>
-            <SectionLink section="projects">
+            <SectionLink section="about">
               {({ onClick }) => <MouseIcon onClick={onClick} />}
             </SectionLink>
           </Fragment>
