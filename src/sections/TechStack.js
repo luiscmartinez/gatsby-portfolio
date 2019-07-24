@@ -41,10 +41,6 @@ const Background = () => (
   </div>
 );
 
-const CARD_HEIGHT = '200px';
-
-const MEDIA_QUERY_SMALL = '@media (max-width: 400px)';
-
 const TechStack = props => {
   return (
     <Section.Container id="skills" Background={Background}>
