@@ -30,10 +30,10 @@ const Helmet = ({ theme = {} }) => (
     `}
     render={data => {
       const { name, description, profile } = data.contentfulAbout;
-      const title = `${name}'s Portfolio`;
+      const title = `${name} Portfolio`;
 
       return (
-        <ReactHelmet>
+        <ReactHelmet htmlAttributes={{ lang: 'en' }}>
           <meta charSet="utf-8" />
           <title>{title}</title>
           <meta name="description" content={description} />
