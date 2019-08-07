@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const spaceImport = require('contentful-import');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
