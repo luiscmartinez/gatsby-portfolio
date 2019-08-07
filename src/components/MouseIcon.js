@@ -36,10 +36,10 @@ const ScrollAnimation = keyframes`
   }
 `;
 
-const Mouse = styled.rect.attrs(props => ({
-  stroke: props.theme.colors.primary,
+const Mouse = styled.rect.attrs({
+  stroke: '#7c37ad',
   strokeWidth: '3',
-}))``;
+})``;
 
 const Scroll = styled.circle`
   animation-name: ${ScrollAnimation};
