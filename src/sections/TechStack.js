@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import ReactLogo from '../components/Logo/react-logo.png';
 import ReduxLogo from '../components/Logo/redux-logo.png';
 import JSLogo from '../components/Logo/js-logo.png';
@@ -10,10 +9,6 @@ import MongoLogo from '../components/Logo/mongo-logo.png';
 import SassLogo from '../components/Logo/sass-logo.png';
 import Section from '../components/Section';
 import Triangle from '../components/Triangle';
-import { CardContainer } from '../components/Card';
-import { Image, Text, Flex, Box, Card } from 'rebass';
-
-import styled from 'styled-components';
 
 const Background = () => (
   <div>
@@ -41,7 +36,7 @@ const Background = () => (
   </div>
 );
 
-const TechStack = props => {
+const TechStack = () => {
   return (
     <Section.Container id="skills" Background={Background}>
       <Section.Header name="Skills" icon="💯" Box="skills" />
@@ -228,12 +223,4 @@ const TechStack = props => {
   );
 };
 
-TechStack.propTypes = {};
-
 export default TechStack;
-
-const Tech = styled.section`
-  border: 1px solid red;
-  width: 95%;
-  margin: 0 auto;
-`;
