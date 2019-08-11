@@ -12,12 +12,16 @@ const client = contentful.createClient({
 const getAboutEntry = entry => entry.sys.contentType.sys.id === 'about';
 
 const plugins = [
-  'gatsby-plugin-react-helmet',
+  {
+    resolve: 'gatsby-plugin-react-helmet',
+  },
   {
     resolve: 'gatsby-plugin-manifest',
     options: manifestConfig,
   },
-  'gatsby-plugin-styled-components',
+  {
+    resolve: 'gatsby-plugin-styled-components',
+  },
   {
     resolve: 'gatsby-plugin-google-fonts',
     options: {
@@ -31,8 +35,12 @@ const plugins = [
       accessToken: ACCESS_TOKEN,
     },
   },
-  'gatsby-transformer-remark',
-  'gatsby-plugin-offline',
+  {
+    resolve: 'gatsby-transformer-remark',
+  },
+  {
+    resolve: 'gatsby-plugin-offline',
+  },
 ];
 
 module.exports = client.getEntries().then(entries => {
