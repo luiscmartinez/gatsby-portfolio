@@ -2,7 +2,7 @@ const contentful = require('contentful');
 const manifestConfig = require('./manifest-config');
 require('dotenv').config();
 
-const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID } = process.env;
+const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID, DETERMINISTIC } = process.env;
 
 const client = contentful.createClient({
   space: SPACE_ID,
@@ -16,17 +16,19 @@ const plugins = [
     resolve: 'gatsby-plugin-react-helmet',
   },
   {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      google: {
+        families: ['Cabin', 'Open Sans'],
+      },
+    },
+  },
+  {
     resolve: 'gatsby-plugin-manifest',
     options: manifestConfig,
   },
   {
     resolve: 'gatsby-plugin-styled-components',
-  },
-  {
-    resolve: 'gatsby-plugin-google-fonts',
-    options: {
-      fonts: ['cabin', 'Open Sans'],
-    },
   },
   {
     resolve: 'gatsby-source-contentful',
@@ -65,6 +67,7 @@ module.exports = client.getEntries().then(entries => {
   return {
     siteMetadata: {
       isMediumUserDefined: !!mediumUser,
+      deterministicBehaviour: !!DETERMINISTIC,
     },
     plugins,
   };
